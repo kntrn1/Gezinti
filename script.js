@@ -40,13 +40,13 @@ scene.add(stars);
 const loader = new THREE.TextureLoader();
 
 const stops = [
-  { name: "Ay", desc: "Sessiz gri yüzey...", img: "assets/images/1.jpg", pos: [0, 0, 0] },
-  { name: "Mars", desc: "Kızıl gezegeni, belki 2. evimiz..", img: "assets/images/2.png", pos: [300, 120, -200] },
-  { name: "Jüpiter", desc: "Dev gaz küresi, güneş sisteminin abisi.", img: "assets/images/3.jpg", pos: [-300, -80, -400] },
-  { name: "Satürn", desc: "Halkaların dansı...", img: "assets/images/4.jpg", pos: [500, 200, -700] },
-  { name: "Nebula", desc: "Yıldız doğum yeri...", img: "assets/images/5.jpg", pos: [-500, 50, -900] },
-  { name: "Karadelik", desc: "Işığın bile kaçamadığı, fizik kanunlarının hiçe sayıldığı o yer...", img: "assets/images/6.jpeg", pos: [200, -200, -1200] },
-  { name: "Galaksi Merkezi", desc: "Her şeyin kalbi...", img: "assets/images/7.jpg", pos: [0, 0, -1600], final: true }
+  { name: "Ay", desc: "Sessiz gri yüzey...", img: "./assets/images/1.jpg", pos: [0, 0, 0] },
+  { name: "Mars", desc: "Kızıl gezegeni, belki 2. evimiz..", img: "./assets/images/2.png", pos: [300, 120, -200] },
+  { name: "Jüpiter", desc: "Dev gaz küresi, güneş sisteminin abisi.", img: "./assets/images/3.jpg", pos: [-300, -80, -400] },
+  { name: "Satürn", desc: "Halkaların dansı...", img: "./assets/images/4.jpg", pos: [500, 200, -700] },
+  { name: "Nebula", desc: "Yıldız doğum yeri...", img: "./assets/images/5.jpg", pos: [-500, 50, -900] },
+  { name: "Karadelik", desc: "Işığın bile kaçamadığı, fizik kanunlarının hiçe sayıldığı o yer...", img: "./assets/images/6.jpeg", pos: [200, -200, -1200] },
+  { name: "Galaksi Merkezi", desc: "Her şeyin kalbi...", img: "./assets/images/7.jpg", pos: [0, 0, -1600], final: true }
 ];
 
 const objects = [];
